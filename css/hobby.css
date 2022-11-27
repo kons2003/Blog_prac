@@ -1,0 +1,43 @@
+table {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+th, td {
+  font-size: large;
+  background: rgb(255, 255, 183);
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#health:hover {
+  color: white;
+  background: rgb(63, 63, 214)
+}
+#game:hover {
+  color: white;
+  background: rgb(63, 63, 214)
+}
+#reading:hover {
+  color: white;
+  background: rgb(63, 63, 214)
+}
+#coding:hover {
+  color: white;
+  background: rgb(63, 63, 214)
+}
+#youtube:hover {
+  color: white;
+  background: rgb(63, 63, 214)
+}
+#none:hover {
+  color: white;
+  background: rgb(247, 122, 122);
+}
